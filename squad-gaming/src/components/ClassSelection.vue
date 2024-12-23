@@ -1,31 +1,40 @@
 <template>
   <v-container class="fill-height">
-    <v-responsive class="align-centerfill-height mx-auto" max-width="900">
-      <v-row>
-        <v-col cols="6">
-          <v-card
-            append-icon="mdi-open-in-new"
-            class="py-4"
-            color="surface-variant"
-            href="https://vuetifyjs.com/"
-            prepend-icon="mdi-text-box-outline"
-            rel="noopener noreferrer"
-            rounded="lg"
-            subtitle="Learn about all things Vuetify in our documentation."
-            target="_blank"
-            title="Documentation"
-            variant="text"
-          >
-            <v-overlay
-              opacity=".06"
-              scrim="primary"
-              contained
-              model-value
-              persistent
-            />
-          </v-card>
+    <div>
+      <!-- Question -->
+      <v-row justify="center">
+        <v-col cols="12" class="text-center">
+          <h1>{{ question }}</h1>
         </v-col>
       </v-row>
-    </v-responsive>
+
+      <!-- Answers -->
+      <v-row justify="center">
+        <v-col v-for="(answer, index) in answers" :key="answer"  cols="12" sm="6" md="4">
+          <ClickableCard :id="'btn-' + index" :text="answer" @onclick="onCardClick('btn-' + index)" />
+        </v-col>
+      </v-row>
+    </div>
   </v-container>
 </template>
+
+<script lang="ts">
+export default {
+  name: "ClassSelection",
+  data() {
+    return {
+      question: "Frage?",
+      answers: [
+        "Hey ich bin ein toller multiline 1 button mit Antowrkjhjkjal as ldhjlkwj",
+        "Hey ich bin ein toller multiline 2 button mit Antowrkjhjkjal as ldhjlkwj",
+        "Hey ich bin ein toller multiline 3 button mit Antowrkjhjkjal as ldhjlkwj",
+      ]
+    }
+  },
+  methods: {
+    onCardClick(name: string) {
+      console.log(name)
+    },
+  },
+};
+</script>

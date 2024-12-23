@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<survey>
+  <question id="q0" text="How do you react to danger">
+    <answer link="q1" text="I don't mind charging in." />
+    <answer link="q2" text="I deal with it from a safe distance." />
+  </question>
+  <question id="q1" text="Are you more strong or nimble?">
+    <answer link="q3" text="Strong!" />
+    <answer link="q7" text="Nimble!" />
+  </question>
+  <question id="q2" text="What do you rely on most?">
+    <answer link="q11" text="Skills." />
+    <answer link="q14" text="Magic." />
+  </question>
+  <question id="q3" text="Are you good with the gods?">
+    <answer link="q4" text="I got 'em on speed dial." />
+    <answer link="q5" text="Meh." />
+  </question>
+  <question id="q4" text="I live my faith by...">
+    <answer link="c1" text="Delivering righteous justive." />
+    <answer link="c2" text="Channeling the nature and power of my god." />
+  </question>
+  <question id="q5" text="Are you prone to fly into a rage?">
+    <answer link="q6" text="No more than the next adventurer." />
+    <answer link="c3" text="Raaaaaaahhhhhrrr!!!" />
+  </question>
+  <question id="q6" text="How cool would it be to turn into a bear?">
+    <answer link="c4" text="So cool!" />
+    <answer link="c5" text="I have allergies." />
+  </question>
+  <question id="q7" text="Do you live for kung-fu movies?">
+    <answer link="c6" text="Bruce Lee is my idol." />
+    <answer link="q8" text="Not so much." />
+  </question>
+  <question id="q8" text="Would you risk your life for a good story?">
+    <answer link="q9" text="I think not." />
+    <answer link="c10" text="You know it!" />
+  </question>
+  <question id="q9" text="I am deadly because...">
+    <answer link="c7" text="I'm a master hunter." />
+    <answer link="q10" text="I'm a schemer." />
+  </question>
+  <question id="q10" text="My schemes usually involve...">
+    <answer link="c8" text="Cloak and dagger tactics." />
+    <answer link="c9" text="Allying myself with dark and strange elements." />
+  </question>
+  <question id="q11" text="How good are you at keeping quiet?">
+    <answer link="q12" text='*silence*' />
+    <answer link="c10" text="I don't know, I've never tried it!" />
+  </question>
+  <question id="q12" text="Do you keep any pets?">
+    <answer link="c7" text="My best friends are ferocious beasts." />
+    <answer link="q13" text="What, like a hamster?" />
+  </question>
+  <question id="q13" text="I'm trained to kill using...">
+    <answer link="c8" text="My brain. And maybe poison." />
+    <answer link="c5" text="Anything that skewers, slices or smashes." />
+  </question>
+  <question id="14" text="I want...">
+    <answer link="c9" text="Magical stamina for days." />
+    <answer link="c11" text="One or two supernatural nukes." />
+    <answer link="q15" text="Flexibility!" />
+  </question>
+  <question id="q15" text="Are you the academic type?">
+    <answer link="q16" text="Not necessarily." />
+    <answer link="c12" text="I'm a bookworm." />
+  </question>
+  <question id="q16" text="Are you religious?">
+    <answer link="c11" text="No, my power comes from within." />
+    <answer link="c10" text="No, my power comes from righteous lote solos." />
+    <answer link="q17" text="Define 'religious'." />
+  </question>
+  <question id="q17" text="Where does your power come from?">
+    <answer link="c4" text="My connection with nature." />
+    <answer link="c2" text="The gods." />
+    <answer link="c9" text="A creepy, otherworldy pact." />
+  </question>
+
+  <class id="c1" name="Paladin">
+    <!-- Image / Description -->
+  </class>
+  <class id="c2" name="Cleric"></class>
+  <class id="c3" name="Barbarian"></class>
+  <class id="c4" name="Druid"></class>
+  <class id="c5" name="Fighter"></class>
+  <class id="c6" name="Monk"></class>
+  <class id="c7" name="Ranger"></class>
+  <class id="c8" name="Rogue"></class>
+  <class id="c9" name="Warlock"></class>
+  <class id="c10" name="Bard"></class>
+  <class id="c11" name="Sorcerer"></class>
+  <class id="c12" name="Wizard"></class>
+  <class id="c" name=""></class>
+</survey>
