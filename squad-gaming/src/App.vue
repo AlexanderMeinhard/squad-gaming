@@ -14,30 +14,30 @@
 </template>
 
 <script lang="ts">
-import type { RouteLocationNormalizedLoadedGeneric } from 'vue-router';
+import type { RouteLocationNormalizedLoadedGeneric } from 'vue-router'
 
 export default {
   data() {
     return {
       currentTab: 0,
-    };
+    }
   },
   watch: {
     $route(to) {
-      this.updateTabFromRoute(to);
+      this.updateTabFromRoute(to)
     },
   },
   mounted() {
-    this.updateTabFromRoute(this.$route);
+    this.updateTabFromRoute(this.$route)
   },
   methods: {
     updateTabFromRoute(route: RouteLocationNormalizedLoadedGeneric) {
       if (route.path === "/") {
-        this.$router.push('/classes');
+        this.$router.push('/classes')
       } else if (route.path === "/classes") {
-        this.currentTab = 0;
+        this.currentTab = 0
       } else if (route.path === "/races") {
-        this.currentTab = 1;
+        this.currentTab = 1
       }
     },
   },

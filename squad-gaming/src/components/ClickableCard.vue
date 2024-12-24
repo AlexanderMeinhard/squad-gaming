@@ -18,7 +18,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .clickable-card {
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
