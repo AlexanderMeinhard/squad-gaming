@@ -10,9 +10,10 @@
           <v-card elevation="3" class="pa-2">
             <v-img id="class-img" :src="imageSrc" alt="Sample Image" :width="250" aspect-ratio="9/16"></v-img>
             <v-card-title class="text-center">{{ result.text }}</v-card-title>
-            <v-btn>
-              <a :href="'whatsapp://send?text=Meine Klasse ist: ' + result.text + '!!'" data-action="share/whatsapp/share">Teile per Whatsapp</a>
+            <v-btn class="mr-2">
+              <a :href="shareLink" data-action="share/whatsapp/share">Teilen</a>
             </v-btn>
+            <v-btn @click="restartSurvey">Restart</v-btn>
           </v-card>
         </v-col>
       </v-row>
@@ -50,6 +51,9 @@ export default {
     imageSrc() {
       return this.result?.image ? new URL(`../assets/classes/${this.result?.image}`, import.meta.url).href : "";
     },
+    shareLink() {
+      return this.result?.text ? `whatsapp://send?text=Meine Klasse ist: ${this.result.text}!!` : ""
+    }
   },
   methods: {
     onCardClick(answer: Answer) {
@@ -57,7 +61,7 @@ export default {
     },
     loadXMlFile() {
       var xhttp = new XMLHttpRequest();
-      xhttp.open("GET", "/src/assets/class-survey.xml");
+      xhttp.open("GET", "/src/assets/class-survey.de.xml");
       xhttp.responseType = "document";
       xhttp.overrideMimeType("text/xml");
       xhttp.onload = () => {
@@ -88,6 +92,22 @@ export default {
         this.result = result
       }
     },
+    restartSurvey() {
+      if (this.survey?.init) {
+        this.navigateToQuestion(this.survey.init)
+      }
+      else {
+        this.loadXMlFile()
+      }
+    }
   },
 }
 </script>
+
+<style scoped>
+a {
+  cursor: default;
+  text-decoration: none;
+  color: #25d366
+}
+</style>

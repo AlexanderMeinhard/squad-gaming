@@ -44,7 +44,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style>
+* {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
 /* Optional Styling for the Tabs */
 .v-tabs {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Adds slight elevation to the tabs */
