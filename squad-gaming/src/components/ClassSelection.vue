@@ -49,7 +49,7 @@ export default {
   },
   computed: {
     imageSrc() {
-      return this.result?.image ? new URL(`../assets/classes/${this.result?.image}`, import.meta.url).href : "";
+      return this.result?.image ? new URL(`${import.meta.env.BASE_URL}public/classes/${this.result?.image}`, import.meta.url).href : "";
     },
     shareLink() {
       return this.result?.text ? `whatsapp://send?text=Meine Klasse ist: ${this.result.text}!!` : ""
@@ -61,7 +61,7 @@ export default {
     },
     loadXMlFile() {
       var xhttp = new XMLHttpRequest();
-      xhttp.open("GET", "/src/assets/class-survey.de.xml");
+      xhttp.open("GET", `${import.meta.env.BASE_URL}public/surveys/class-survey.de.xml`);
       xhttp.responseType = "document";
       xhttp.overrideMimeType("text/xml");
       xhttp.onload = () => {
