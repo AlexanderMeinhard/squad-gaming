@@ -33,7 +33,6 @@ export default defineConfig({
       },
     }),
   ],
-  base: 'squad-gaming',
   define: { 'process.env': {} },
   resolve: {
     alias: {
