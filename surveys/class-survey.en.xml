@@ -81,9 +81,9 @@
   <result id="c2" text="Cleric" image="Klasse_Kleriker.png"></result>
   <result id="c3" text="Barbarian" image="Klasse_Barbar.png"></result>
   <result id="c4" text="Druid" image="Klasse_Druide.png"></result>
-  <result id="c5" text="Fighter" image="Klasse_Kämpfer.png"></result>
+  <result id="c5" text="Fighter" image="Klasse_Kaempfer.png"></result>
   <result id="c6" text="Monk" image="Klasse_Mönch.png"></result>
-  <result id="c7" text="Ranger" image="Klasse_Waldläufer.png"></result>
+  <result id="c7" text="Ranger" image="Klasse_Waldlaeufer.png"></result>
   <result id="c8" text="Rogue" image="Klasse_Schurke.png"></result>
   <result id="c9" text="Warlock" image="Klasse_Hexer.png"></result>
   <result id="c10" text="Bard" image="Klasse_Barde.png"></result>
