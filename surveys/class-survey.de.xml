@@ -57,7 +57,7 @@
   </question>
   <question id="q14" text="Ich träume von...">
     <answer link="c9" text="unbegrenzter magischer Ausdauer."></answer>
-    <answer link="c11" text="ein oder zwei übernatürliche Atomwaffen."></answer>
+    <answer link="c11" text="ein oder zwei übernatürlichen Atomwaffen."></answer>
     <answer link="q15" text="Flexibilität!"></answer>
   </question>
   <question id="q15" text="Bist du der akademische Typ?">
@@ -75,9 +75,7 @@
     <answer link="c9" text="Sagen wir, ein grausiges, abgöttisches Ritual war notwendig."></answer>
   </question>
 
-  <result id="c1" text="Paladin" image="Klasse_Paladin.png">
-    <!-- Image / Description -->
-  </result>
+  <result id="c1" text="Paladin" image="Klasse_Paladin.png"></result>
   <result id="c2" text="Kleriker" image="Klasse_Kleriker.png"></result>
   <result id="c3" text="Barbar" image="Klasse_Barbar.png"></result>
   <result id="c4" text="Druide" image="Klasse_Druide.png"></result>
