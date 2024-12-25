@@ -81,9 +81,9 @@
   <result id="c2" text="Kleriker" image="Klasse_Kleriker.png"></result>
   <result id="c3" text="Barbar" image="Klasse_Barbar.png"></result>
   <result id="c4" text="Druide" image="Klasse_Druide.png"></result>
-  <result id="c5" text="Kämpfer" image="Klasse_Kämpfer.png"></result>
+  <result id="c5" text="Kämpfer" image="Klasse_Kaempfer.png"></result>
   <result id="c6" text="Mönch" image="Klasse_Mönch.png"></result>
-  <result id="c7" text="Waldläufer" image="Klasse_Waldläufer.png"></result>
+  <result id="c7" text="Waldläufer" image="Klasse_Waldlaeufer.png"></result>
   <result id="c8" text="Schurke" image="Klasse_Schurke.png"></result>
   <result id="c9" text="Hexer" image="Klasse_Hexer.png"></result>
   <result id="c10" text="Barde" image="Klasse_Barde.png"></result>
