@@ -59,4 +59,17 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          const assetName = assetInfo.name || assetInfo.names?.[0] || ''; // Fallback for compatibility
+          if (/\.(eot|woff2|woff|ttf)$/.test(assetName)) {
+            return 'assets/fonts/[name]-[hash][extname]';
+          }
+          return 'assets/[name]-[hash][extname]';
+        },
+      },
+    },
+  },
 })
