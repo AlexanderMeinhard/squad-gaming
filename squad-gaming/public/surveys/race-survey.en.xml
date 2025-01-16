@@ -1,0 +1,8 @@
+<survey init="q0">
+  <question id="q0" text="How do you react to danger?">
+    <answer link="c1" text="I don&apos;t mind charging in."></answer>
+    <answer link="c1" text="I deal with it from a safe distance."></answer>
+  </question>
+
+  <result id="c1" text="Mensch" image="Klasse_Barbar.png"></result>
+</survey>

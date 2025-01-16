@@ -1,0 +1,90 @@
+<survey init="q0">
+  <question id="q0" text="Wie reagierst du auf Gefahr?">
+    <answer link="q1" text="Im Zweifel renne ich einfach rein und kümmer mich drum!"></answer>
+    <answer link="q2" text="Ich beseitige sie am liebsten aus der Distanz."></answer>
+  </question>
+  <question id="q1" text="Bist du eher stark oder flink?">
+    <answer link="q3" text="STARK!"></answer>
+    <answer link="q7" text="Flink!!"></answer>
+  </question>
+  <question id="q2" text="Auf was verlässt du dich am meisten?">
+    <answer link="q11" text="Meine Fähigkeiten."></answer>
+    <answer link="q14" text="Meine magischen Kräfte."></answer>
+  </question>
+  <question id="q3" text="Wie kommst du mit den Göttern klar?">
+    <answer link="q4" text="Sind per Kurzwahl immer erreichbar."></answer>
+    <answer link="q5" text="Meh."></answer>
+  </question>
+  <question id="q4" text="Ich lebe meinen Glauben, indem ich...">
+    <answer link="c1" text="für Gerechtigkeit sorge."></answer>
+    <answer link="c2" text="die Natur und Kraft meines Gottes kanalisiere."></answer>
+  </question>
+  <question id="q5" text="Neigst du dazu in Rage zu geraten?">
+    <answer link="q6" text="Nicht mehr als jeder andere Abenteurer auch."></answer>
+    <answer link="c3" text="Raaaaaaahhhhhrrr!!!"></answer>
+  </question>
+  <question id="q6" text="Wie cool wäre es sich in einen Bären verwandeln zu können?">
+    <answer link="c4" text="Brutal cool."></answer>
+    <answer link="c5" text="Bin leider allergisch."></answer>
+  </question>
+  <question id="q7" text="Lebst du für Kung-Fu-Filme?">
+    <answer link="c6" text="Bruce Lee ist mein Idol."></answer>
+    <answer link="q8" text="Nicht so wirklich."></answer>
+  </question>
+  <question id="q8" text="Würdest du dein Leben für eine gute Geschichte riskieren?">
+    <answer link="q9" text="Ich denke nicht."></answer>
+    <answer link="c10" text="Hell yeah!"></answer>
+  </question>
+  <question id="q9" text="Ich bin tödlich weil ich...">
+    <answer link="c7" text="ein vortrefflicher Jäger bin."></answer>
+    <answer link="q10" text="dich überzeugen kann, dich selbst zu töten. Nein, for real!"></answer>
+  </question>
+  <question id="q10" text="Meine Pläne beinhalten normalerweise...">
+    <answer link="c8" text="verdeckte Ermittlung und Messerstecherei."></answer>
+    <answer link="c9" text="mich mit dunklen und seltsamen Elementen zu verbünden."></answer>
+  </question>
+  <question id="q11" text="Wie gut kannst du deinen Mund halten?">
+    <answer link="q12" text="..."></answer>
+    <answer link="c10" text="Keine Ahnung, hab ich nie versucht lol"></answer>
+  </question>
+  <question id="q12" text="Hast du Haustiere?">
+    <answer link="c7" text="Jedes Tier ist mein Freund, ich träume sogar von manchen."></answer>
+    <answer link="q13" text="Ehm meinst du sowas wie nen Hamster?"></answer>
+  </question>
+  <question id="q13" text="Welche Dinge brauchst du zum Töten?">
+    <answer link="c8" text="Mein Gehirn. Und vielleicht etwas Gift."></answer>
+    <answer link="c5" text="Alles, was schnippeln, schneiden, pieksen oder knüppeln kann sollte reichen."></answer>
+  </question>
+  <question id="q14" text="Ich träume von...">
+    <answer link="c9" text="unbegrenzter magischer Ausdauer."></answer>
+    <answer link="c11" text="ein oder zwei übernatürlichen Atomwaffen."></answer>
+    <answer link="q15" text="Flexibilität!"></answer>
+  </question>
+  <question id="q15" text="Bist du der akademische Typ?">
+    <answer link="q16" text="Nicht wirklich."></answer>
+    <answer link="c12" text="Ich würde sogar das Telefonbuch nochmal lesen."></answer>
+  </question>
+  <question id="q16" text="Bist du religiös?">
+    <answer link="c11" text="Nein, meine Kraft kommt von innen."></answer>
+    <answer link="c10" text="Nein, meine Macht kommt von berstigen Lyra Solos."></answer>
+    <answer link="q17" text="Definiere religiös..."></answer>
+  </question>
+  <question id="q17" text="Woher kommt deine Kraft?">
+    <answer link="c4" text="Von meiner Verbindung zur Natur."></answer>
+    <answer link="c2" text="Von den Göttern!"></answer>
+    <answer link="c9" text="Sagen wir, ein grausiges, abgöttisches Ritual war notwendig."></answer>
+  </question>
+
+  <result id="c1" text="Paladin" image="Klasse_Paladin.png"></result>
+  <result id="c2" text="Kleriker" image="Klasse_Kleriker.png"></result>
+  <result id="c3" text="Barbar" image="Klasse_Barbar.png"></result>
+  <result id="c4" text="Druide" image="Klasse_Druide.png"></result>
+  <result id="c5" text="Kämpfer" image="Klasse_Kaempfer.png"></result>
+  <result id="c6" text="Mönch" image="Klasse_Moench.png"></result>
+  <result id="c7" text="Waldläufer" image="Klasse_Waldlaeufer.png"></result>
+  <result id="c8" text="Schurke" image="Klasse_Schurke.png"></result>
+  <result id="c9" text="Hexer" image="Klasse_Hexer.png"></result>
+  <result id="c10" text="Barde" image="Klasse_Barde.png"></result>
+  <result id="c11" text="Zauberer" image="Klasse_Zauberer.png"></result>
+  <result id="c12" text="Magier" image="Klasse_Magier.png"></result>
+</survey>
