@@ -1,0 +1,8 @@
+<survey init="q0">
+  <question id="q0" text="Testa sdsadasd a?">
+    <answer link="c1" text="STARK!"></answer>
+    <answer link="c1" text="Flink!!"></answer>
+  </question>
+
+  <result id="c1" text="Mensch" image="Klasse_Barbar.png"></result>
+</survey>
